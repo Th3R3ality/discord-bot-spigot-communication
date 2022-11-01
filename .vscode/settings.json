@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///c%3A/Users/reality/source/discord-bot-spigot-communication/app/src/main/resources/plugin.yml"
+    }
+}

@@ -1,0 +1,17 @@
+name: discordBotSpigotCommunication
+version: 1.19.2
+
+main: discord.bot.spigot.communication.wise_mystical_tree
+
+commands: {
+  send: {
+    description: "send a message to the server",
+    usage: "/send <message>",
+    permission: "1"
+  },
+  connect: {
+    description: "try to connect to discord bot",
+    usage: "/connect",
+    permission: "4"
+  }
+}
