@@ -7,11 +7,21 @@ commands: {
   send: {
     description: "send a message to the server",
     usage: "/send <message>",
-    permission: "1"
+    permission: "wise.send"
   },
   connect: {
     description: "try to connect to discord bot",
     usage: "/connect",
-    permission: "4"
+    permission: "wise.connect"
+  }
+  permissions: {
+    wise.send: {
+      description: "allows user to send a message to the discord chat",
+      default: true
+    }
+    wise.connect: {
+      description: "allows user to try and connect to the discord bot",
+      default: "op"
+    }
   }
 }
