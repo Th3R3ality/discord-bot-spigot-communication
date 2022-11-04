@@ -15,13 +15,13 @@ commands: {
     permission: "wise.connect"
   }
   permissions: {
-    wise.send: {
+    "wise.send": {
       description: "allows user to send a message to the discord chat",
       default: true
     }
-    wise.connect: {
+    "wise.connect": {
       description: "allows user to try and connect to the discord bot",
-      default: "op"
+      default: "OP"
     }
   }
 }
